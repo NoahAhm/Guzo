@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 def get_tour_packages(destination):
-    api_key = 'YOUR_API_KEY'
+    api_key = ''# To be filled when you get the right api key
     endpoint = f"https://api.expediapartnercentral.com/.../search?destination={destination}"
     headers = {'Authorization': f'Bearer {api_key}'}
     response = requests.get(endpoint, headers=headers)
