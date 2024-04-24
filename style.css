@@ -1,0 +1,46 @@
+div.st-emotion-cache-1wrcr25.ea3mdgi9 {
+    height: 100%;
+    /* max-height: 600px; */
+    width: full;
+    background-color: hsla(200,40%,30%,.6); /* Adjust alpha value to make it more opaque */
+    background-image:   
+        url('https://64.media.tumblr.com/2cf21604983df8d68769e4f0c86de946/34d767f97ce99b84-56/s1280x1920/68050341c189fa5580b9036afd63459abe579a33.jpg');
+        
+    background-repeat: repeat-x;
+    background-position: 
+        0 20%,
+        0 100%,
+        0 50%,
+        0 100%,
+        0 0;
+    background-size: 
+        2500px,
+        800px,
+        500px 200px,
+        1000px,
+        400px 260px;
+    animation: 50s para infinite linear;
+}
+
+@keyframes para {
+    100% {
+        background-position: 
+            -5000px 20%,
+            -800px 95%,
+            500px 50%,
+            1000px 100%,
+            400px 0;
+    }
+}
+
+div.st-emotion-cache-l9bjmx.e1nzilvr5 {
+    color:hsla(320,40%,30%,.6);
+}
+div.st-emotion-cache-eqffof.e1nzilvr5{
+    color: hsla(320,40%,30%,.6);
+}
+div.st-emotion-cache-0.e1f1d6gn0 {
+    background-color: rgba(21, 43, 25, 0.75); /* Background color with 50% opacity */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 10px; /* Adjust border radius to round the edges */
+}
